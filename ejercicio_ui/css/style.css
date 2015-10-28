@@ -1,0 +1,35 @@
+body{
+	color: red;
+}
+
+widget, ul {
+	float: left;
+	width: 45%;
+}
+
+widget {
+	background: orange;
+	height: 200px;
+}
+
+section {
+	background: #ff9900;
+	border: solid black;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+ul{
+	list-style: none;
+}
